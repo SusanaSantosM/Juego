@@ -28,7 +28,7 @@ public class Juego {
 
       if(numeroUsuario == numeroAdivinar){
         String intento = null;
-        JOptionPane.showMessageDialog(null, "¡Adivinaste el número! " +numeroAdivinar+ " en " +intentos+ "intentos. ");
+        JOptionPane.showMessageDialog(null, "¡Adivinaste el número!! " +numeroAdivinar+ " en " +intentos+ "intentos. ");
         break;
       } else if(numeroUsuario < numeroAdivinar){
         JOptionPane.showMessageDialog(null, "El número a adivinar es mayor.");
